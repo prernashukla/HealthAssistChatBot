@@ -6,7 +6,7 @@ To design a chatbot using OpenAI that helps identify the health issue the user i
 ## System Design
 The chatbot is designed to take user input by welcoming the user with greetings and asking if they are facing any problems. Upon receiving the problem, if the issue is clear, it categorizes the problem into predefined health issues. If not, it asks more questions to get a better understanding. Once the health issue is found and categorized, it will provide appropriate advice or direct the user to seek further assistance. The chatbot will terminate the conversation when the user types "exit".
 
-![System Design](path_to_system_design_image)
+![chatbot design](https://github.com/user-attachments/assets/dc6c2982-4447-4c2c-8d5f-397d8dca0730)
 
 ## In Action
 The chatbot starts with a welcome message and encourages the user to share their health issues. It then asks relevant questions to understand the user's symptoms and categorizes the issue accordingly. Here is an example conversation:
@@ -27,9 +27,6 @@ The chatbot starts with a welcome message and encourages the user to share their
 
 ## Dataset
 The dataset used in this project is a refined list of health issues and their solutions. The dataset includes categories such as 'Cuts', 'Abrasions', 'Stings', 'Splinter', 'Sprains', 'Strains', 'Fever', 'Nasal Congestion', 'Cough', 'Sore Throat', 'Gastrointestinal problems', 'Skin problems', 'Abdominal Pain', 'Bruises', 'Broken Toe', 'Choking', 'Wound', 'Diarrhea', 'Frostbite', 'Heat Exhaustion', 'Heat Stroke', 'Insect Bites', 'Nose Bleed', 'Pulled Muscle', 'Rectal Bleeding', 'Sun Burn', 'Testicle Pain', 'Vertigo', 'Normal Bleeding', 'Eye Injury', 'Chemical Burn', 'Poison', 'Teeth Issues', 'Seizure', 'Head Injury', 'Fainting', 'Headache', 'Cold', 'Rash', 'Snake Bite', 'Animal Bite', 'Drowning', 'CPR', 'Fracture'.
-
-## System Design
-![System Design](https://github.com/prernashukla/HealthAssistChatBot/chatbot design.jpg)
 
 ## Conclusion
 With this health issue identification chatbot, users can interact with the bot to understand their health issues better. The bot categorizes the health issue based on predefined categories and provides appropriate advice or directs the user to seek further assistance.
