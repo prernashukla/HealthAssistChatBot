@@ -18,41 +18,25 @@ The chatbot starts with a welcome message and encourages the user to share their
 **Assistant**: Thank you for the information. Let me help you further.
 
 ## Steps to Run the Project
-1. **Ensure OpenAI Account and API Keys**:
    - Create an account on OpenAI if you don't have one.
    - Make sure you have enough credits to use the 'gpt-3.5-turbo' model.
    - Obtain your API keys and save them in a file named `Open_AI_Key.txt`.
 
-2. **Open the Project in Visual Studio Code**:
-   - Launch Microsoft Visual Studio Code on your computer.
-   - Open the project folder in Visual Studio Code.
-
-3. **Run the Main Application File**:
-   - Locate the `app.py` file in the project directory.
-   - Execute the `app.py` file to start the chatbot. This file contains the initial flow of the code and will set everything in motion.
-
-4. **Interact with the Chatbot**:
-   - You can open the webpage at `http://127.0.0.1:5000/` to converse with the chatbot.
-
 **Note**:
-- Installation: Run `pip install -r requirements.txt` to install all the dependencies.
-- Since we are using online LLM models, sometimes responses might not be as expected, so try again by clicking on the ‘End Conversation’ button or restarting the application.
+- Since we are using online LLM models, sometimes responses might not be as expected, so try again by 'Exit' and restarting the conversation.
 
 ## Dataset
 The dataset used in this project is a refined list of health issues and their solutions. The dataset includes categories such as 'Cuts', 'Abrasions', 'Stings', 'Splinter', 'Sprains', 'Strains', 'Fever', 'Nasal Congestion', 'Cough', 'Sore Throat', 'Gastrointestinal problems', 'Skin problems', 'Abdominal Pain', 'Bruises', 'Broken Toe', 'Choking', 'Wound', 'Diarrhea', 'Frostbite', 'Heat Exhaustion', 'Heat Stroke', 'Insect Bites', 'Nose Bleed', 'Pulled Muscle', 'Rectal Bleeding', 'Sun Burn', 'Testicle Pain', 'Vertigo', 'Normal Bleeding', 'Eye Injury', 'Chemical Burn', 'Poison', 'Teeth Issues', 'Seizure', 'Head Injury', 'Fainting', 'Headache', 'Cold', 'Rash', 'Snake Bite', 'Animal Bite', 'Drowning', 'CPR', 'Fracture'.
 
 ## System Design
-![System Design](path_to_system_design_image)
-
-## Flow Chart
-![Flow Chart](path_to_flow_chart_image)
+![System Design](https://github.com/prernashukla/HealthAssistChatBot/chatbot design.jpg)
 
 ## Conclusion
 With this health issue identification chatbot, users can interact with the bot to understand their health issues better. The bot categorizes the health issue based on predefined categories and provides appropriate advice or directs the user to seek further assistance.
 
 ### Key Points
 - Developed an end-to-end system from user input to health issue identification.
-- Implemented function calling for expanding the chatbot's capabilities.
+- Implemented function calling for expanding the chatbot's capabilities such as assisting with departments in the hospital and providing list of doctors.
 - Improved user interaction by asking relevant questions to understand the health issues better.
 - Provided a clear and structured approach for categorizing health issues.
 
@@ -62,4 +46,4 @@ With this health issue identification chatbot, users can interact with the bot t
 - Enhancing the feedback mechanism to better understand user satisfaction.
 
 ### Contact
-Created by [Your Name] - feel free to contact me!
+Created by [Prerna Shukla](https://github.com/prernashukla)  - feel free to contact me!
